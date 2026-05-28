@@ -1,0 +1,17 @@
+AII-Heyan RAG build completed.
+
+Final Qdrant:
+collection = rag_chunks_full
+points_count = 1996551
+indexed_vectors_count = 1996551
+
+Final OpenSearch:
+index = rag_chunks
+count = 1996551
+
+Resume:
+build_resume_90000_168000 finished
+current_offset = 168138
+end_offset = 168000
+
+Do not rerun build unless intentionally adding new corpus.

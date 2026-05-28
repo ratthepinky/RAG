@@ -1,0 +1,29 @@
+{
+  "queries": [
+    {
+      "id": "q001",
+      "question": "不明原因发热的定义是什么",
+      "expected_keywords": ["FUO", "fever of unknown origin", "不明原因发热", "定义", "体温"]
+    },
+    {
+      "id": "q002",
+      "question": "不明原因发热的常见病因有哪些",
+      "expected_keywords": ["病因", "感染", "肿瘤", "自身免疫"]
+    },
+    {
+      "id": "q003",
+      "question": "不明原因发热需要做哪些检查",
+      "expected_keywords": ["检查", "CRP", "血常规", "CT", "抗体"]
+    },
+    {
+      "id": "q004",
+      "question": "不明原因发热的症状有哪些",
+      "expected_keywords": ["发热", "症状", "畏寒", "头痛", "乏力"]
+    },
+    {
+      "id": "q005",
+      "question": "成人斯蒂尔病的诊断标准",
+      "expected_keywords": ["成人斯蒂尔病", "Still病", "AOSD", "诊断"]
+    }
+  ]
+}

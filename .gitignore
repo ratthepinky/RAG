@@ -1,0 +1,42 @@
+.env
+*.log
+logs/
+__pycache__/
+*.pyc
+cleaned_corpus/
+new_cleaned_corpus/
+raw_new_corpus/
+extracted_new_corpus/
+artifacts/model_cache/
+artifacts/qdrant_local/
+artifacts/resume_state/
+*.tar
+*.tar.gz
+*.zip
+*.7z
+.vscode/
+.idea/
+
+# env backups / local secrets
+.env.*
+!.env.example
+
+# backup files
+*.bak
+*.bak_*
+*.bak_before_*
+*.bak_single_collection_*
+
+# env backups / local secrets
+.env.*
+!.env.example
+
+# backup files
+*.bak
+*.bak_*
+*.bak_before_*
+*.bak_single_collection_*
+
+# local test outputs / temporary patch scripts
+eval_result.json
+patch_test_real_qa_to_hybrid.py
