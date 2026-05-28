@@ -48,7 +48,6 @@ scripts/
   eval_retrieval.py
   run_query_local.py
   test_retrieval_only.py
-  test_rag_qa.py
 
 demo_qa.py
 run_demo.sh
@@ -153,3 +152,7 @@ bash run_demo.sh
 * 本仓库不包含已经建好的数据库。
 * 如果要更换新语料，应先生成新的 cleaned corpus，再新建独立 Qdrant collection 和 OpenSearch index。
 * 不建议直接覆盖现有正式库，应采用新库并行方式验证。
+
+## 外部环境说明
+
+`run_demo.sh` 是原服务器环境下的一键启动脚本，其中包含原服务器的绝对路径。若在其他机器运行，需要根据实际环境修改 `PROJECT_ROOT`、`PYTHON`、`QDRANT_BIN`、`QDRANT_STORAGE` 等路径，或直接按 `.env.example` 自行配置后运行 Python 脚本。
