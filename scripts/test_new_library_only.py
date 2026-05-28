@@ -12,7 +12,7 @@ from pathlib import Path
 from datetime import datetime
 
 # 强制离线模式
-os.environ["HF_HOME"] = "/AII-heyan/ragtestv01_server_bundle_release/artifacts/model_cache"
+os.environ.setdefault("HF_HOME", str(Path(__file__).resolve().parents[1] / "artifacts" / "model_cache"))
 os.environ["HF_HUB_OFFLINE"] = "1"
 os.environ["TRANSFORMERS_OFFLINE"] = "1"
 
@@ -102,7 +102,7 @@ def test_new_library():
     print(f"配置信息:")
     print(f"  - OpenSearch URL: {config.opensearch_url}")
     print(f"  - OpenSearch Index: {config.opensearch_index_name}")
-    print(f"  - Qdrant Path: {config.qdrant_local_path}")
+    print(f"  - Qdrant URL: {config.qdrant_url}")
     print(f"  - Qdrant Collection: {config.qdrant_collection_name}")
     print(f"  - Embedding Model: {config.model_name_or_path}")
     

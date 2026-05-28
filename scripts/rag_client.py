@@ -1,6 +1,6 @@
 """
 RAG 问答脚本 - API 模式
-Embedding/Reranker 本地运行，LLM 调用 DeepSeek API
+Embedding/Reranker 本地运行，LLM 调用 Kimi/Moonshot API
 """
 from __future__ import annotations
 
