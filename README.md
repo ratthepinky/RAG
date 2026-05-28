@@ -54,7 +54,6 @@ demo_qa.py
 run_demo.sh
 .env.example
 requirements.txt
-requirements_freeze.txt
 ```
 
 ## 核心模块
