@@ -12,7 +12,7 @@ from pathlib import Path
 from datetime import datetime
 
 # 强制离线模式
-os.environ["HF_HOME"] = "/AII-heyan/ragtestv01_rebuild/artifacts/model_cache"
+os.environ["HF_HOME"] = "/AII-heyan/ragtestv01_server_bundle_release/artifacts/model_cache"
 os.environ["HF_HUB_OFFLINE"] = "1"
 os.environ["TRANSFORMERS_OFFLINE"] = "1"
 

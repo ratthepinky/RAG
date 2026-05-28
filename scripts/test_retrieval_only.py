@@ -9,7 +9,7 @@ import os
 from pathlib import Path
 
 # 强制离线模式，必须在导入任何 huggingface 相关模块之前设置
-os.environ["HF_HOME"] = "/AII-heyan/ragtestv01_rebuild/artifacts/model_cache"
+os.environ["HF_HOME"] = "/AII-heyan/ragtestv01_server_bundle_release/artifacts/model_cache"
 os.environ["HF_HUB_OFFLINE"] = "1"
 os.environ["TRANSFORMERS_OFFLINE"] = "1"
 

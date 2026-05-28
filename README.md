@@ -1,10 +1,10 @@
-# ragtestv01_rebuild
+# ragtestv01_server_bundle_release
 
 极简、稳定优先的学术文献 RAG 建库项目。它只做这几件事：读取清洗后的 JSON、按结构优先分块、生成 embedding、写入本地 embedded Qdrant 和 OpenSearch，并支持断点续跑。
 
 ## 目录
 ```text
-ragtestv01_rebuild/
+ragtestv01_server_bundle_release/
   app/
     config.py
     chunker.py
